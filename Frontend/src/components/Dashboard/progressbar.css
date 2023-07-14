@@ -1,0 +1,31 @@
+.progress-bar {
+  width: 50%;
+  height: 3px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+ bottom: 0.5rem;
+
+  position: relative;
+}
+
+.progress-bar__fill {
+  height: 100%;
+
+  background-color: #4caf50;
+  transition: width 0.2s ease-in-out;
+  position: absolute;
+  display: flex; /* Add this line to use flexbox */
+  align-items: center; /* Add this line to center items vertically */
+  justify-content: center; /* Add this line to center items horizontally */
+}
+
+.progress-bar__text {
+  
+  font-size: 14px;
+  color: #333;
+ 
+  font-weight: bold;
+}
+.container__text{
+  margin-left: 20rem;
+}

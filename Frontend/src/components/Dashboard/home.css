@@ -1,0 +1,110 @@
+
+
+.main__container{
+    padding: 20px 35px;
+    margin-left: 5rem;
+}
+
+.project-status{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 40px;
+   margin: 0 2px 0 8px;
+  
+}
+.status-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    padding: 25px;
+  align-items: center;
+    border-radius: 5px;
+ background: #ffff; 
+ transition: 0.5s;
+ box-shadow: 5px 5px 12px 1px rgb(247, 246, 246);
+}
+
+.status-total:hover{
+    transform: scale(1.07);
+}
+.status-total p{
+    font-size: 1.5rem;
+    color: rgb(160, 159, 159); 
+}
+
+.project-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.project-card{
+   
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    height: 13rem;
+    background-color: white;
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+    box-shadow: 5px 5px 12px 1px rgb(247, 245, 245);
+}
+.project-card:hover{
+    transform: scale(1.03);
+    gap: 4px;
+    
+}
+.project-title{
+ background-color: white;
+    font-size: 1.2rem;
+    text-align: start;
+    
+    text-transform: uppercase;
+ color: rgb(160, 159, 159);
+    font-weight: 700;
+    margin-top: 0.8rem;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+}
+.project, p, h3{
+    /* background-color: white; */
+    margin-bottom: 1rem;
+}
+.group-member{
+    display: grid;
+    grid-template-columns: 1fr;
+ background-color: white;
+    position: relative;
+
+}
+
+span{
+    background-color: white;
+}
+.deadline{
+    font-size: 0.7rem;
+    background-color: #fdeeee;
+    width: 25%;
+    color:#ffa1a1;
+    margin-top: 0.1rem;
+    padding-left:5px;
+}
+.total-member {
+    position: absolute;
+    right: 2px;
+    top: 4rem;
+  
+color: rgb(161, 161, 161);
+    padding: 12px
+}
+
+.horizontal-line{
+    width: 100%;
+    height: 0;
+    margin-top: 2.5rem;
+    margin-right: 3px;
+    border-top: 0.5px solid #c5c3c3;
+   
+}

@@ -1,0 +1,156 @@
+*{
+    background-color: rgbo(244, 244, 244, 0.5);
+}
+
+
+.main-container{
+    position: absolute;
+    width: calc(100% - 300px);
+    right: 100px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    top: 50px;
+   justify-content: center;
+   align-items: center;
+    padding: 5%;
+    padding-top: 2px;
+    padding-bottom: 3%;
+    bottom: 50px;
+    border-radius: 1rem;
+}
+.inner{
+    margin-top: 3rem;
+}
+.input-field-container {
+   
+    margin-top: 5rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns:45% 45%;
+    gap: 0.7rem;
+    z-index: 2;
+}
+
+.input-field-container input, Multiselect{
+    position: relative;
+  height: 40px;
+  width: 100%; 
+  outline: none;
+  border-radius: 6px;
+  padding: 0 15px;
+  background-color: rgb(242, 242, 242);
+  border: 1px solid rgb(202, 202, 202);
+   
+}
+
+
+.input-field-container input:focus{
+    box-shadow: 0px 0px 2px 1px rgba(21, 113, 146, 0.4);
+    border: 1px solid rgba(21, 113, 146, 0.4);
+}
+.input-field-container select, Multiselect{ 
+     position: relative;
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 6px;
+  padding: 0 15px;
+  background-color: rgb(242, 242, 242);
+}
+p, input, Multiselect {
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+}
+.input-field-container .name Multiselect{
+    margin: 0rem 2rem;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .my-multiselect {
+    width: 100%; /* full width on small screens */
+  }
+  /*-----------button to redirect for the topup----------------*/
+.messageOverviewbBtton {
+    margin-top: 1%;
+    margin-bottom: 20px;
+    margin-right: 12%;
+    display: flex;
+    text-align: end;
+    justify-content: end;
+}
+.messageOverviewText {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #000000;
+
+}
+
+.messageOverviewbBtton .messageOverviewText:hover {
+    transform: scale(1.03);
+}
+
+/*--------------Popup page------------------*/
+.holdingForMssage {
+    margin-left: 8%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: none;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+   
+}
+/* .messageBoxs{
+    box-shadow: 0px 0px 0px 10000px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+
+} */
+.mainPopup{
+   
+    grid-area: header;
+}
+
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners{
+    height:50px;
+
+}
+.user-button{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.add{
+    padding: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
+   
+    background-color: #191919;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    transition: 0.5s;
+    margin-bottom: 2rem;
+    
+}
+  .error{
+    color: #ff0000;
+    margin-left: 1.4rem;
+    font-size: 13px;
+  }
+ .add:hover{
+    transform: scale(1.07);
+
+}
