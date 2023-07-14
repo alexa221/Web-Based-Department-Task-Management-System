@@ -1,4 +1,4 @@
-# Web-Based-Department-Task_Management 
+# Web-Based-Department-Task_Management System
 The aim of the Department Level Task Management project is to help users keep track of their tasks, mark their completion status, and manage them efficiently. It provides an interactive platform where users can add, update, or delete tasks. The application will have a user authentication system to allow users to sign up, log in, and manage their tasks securely.
 
 ### 1. Frontend (React JS):
