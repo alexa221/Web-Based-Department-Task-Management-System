@@ -19,3 +19,5 @@ The aim of the Department Level Task Management project is to help users keep tr
 - Sequelize helps simplify the process of working with databases, providing an easy-to-use API for performing CRUD operations and managing database schema and migrations.
 - By using Sequelize, we can abstract database operations and interact with the MySQL database using JavaScript instead of SQL queries.
 
+# Summery of The Portfolio Project
+The Web-Based Department Task Management System is designed to enable users to keep track of their tasks, manage them efficiently, and mark their completion status. This interactive platform allows users to add, update, or delete tasks securely and features user authentication to ensure secure management of tasks. The application has a React JS frontend, an Express JS backend, MySQL database, and Sequelize ORM.
